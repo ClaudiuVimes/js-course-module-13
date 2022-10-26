@@ -125,3 +125,11 @@
     color: white;
     margin: 0;
   }
+
+  .test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    max-width: 27.5rem;
+  }
