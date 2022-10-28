@@ -183,4 +183,3 @@ class DOMHelper {
   }
   
   App.init();
-  
