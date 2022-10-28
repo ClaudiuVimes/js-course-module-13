@@ -168,6 +168,10 @@ class DOMHelper {
       finishedProjectsList.setSwitchHandlerFunction(
         activeProjectsList.addProject.bind(activeProjectsList)
       );
+
+      const someScript = document.createElement('script');
+      someScript.textContent = 'alert("HI There")';
+      document.head.append(someScript);
     }
   }
   
